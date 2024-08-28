@@ -1,0 +1,66 @@
+.youtube-name {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.youtube-icon {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 95px;
+}
+.utube-name{
+    margin-top: -35px;
+    margin-left: 25px;
+    position: relative;
+}
+
+.list-titles {
+    list-style-type: none;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+.navbar {
+    width: 250px;
+    margin-top: -45px;
+    overflow-y: scroll;
+    position: relative;
+    transition: top 0.3s;
+}
+.navbar a{
+    overflow-y: scroll;
+
+}
+
+.input{
+    width: 450px;
+    height: 35px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 350px;
+}
+.search-bar{
+    height: 35px;
+    width: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: -5px;
+}
+.span-tag{
+    margin-top: 8px;
+}
+.fa-solid{
+    margin-left: -45px;
+}
