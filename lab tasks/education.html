@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1 {
+            color: red
+        }
+
+        table {
+            background-color: aqua;
+            border-radius: 5px;
+            border: 2vh;
+            border-style: solid;
+            color: rgb(16, 0, 139);
+        }
+        body {
+            background-image: linear-gradient(red,blue,green,yellow,indigo,pink);
+        }
+        
+    </style>
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <table class="tab" align="center" cellpadding="10">
+            <h1 align="center">Educational Details</h1>
+            <tr>
+                <td>Student Name </td>
+                <td><input type="text" placeholder="Enter your Name" required></td>
+            </tr>
+            <tr>
+                <td>Reg Number</td>
+                <td><input type="text" placeholder="Enter mobile number" pattern="[a-zA-Z0-9]" required></td>
+            </tr>
+            <tr>
+                <td>Course</td>
+                <td><input list="Course" type="text" placeholder="Courses"></td>
+                <datalist id="Course">
+                    <option value="B tech">
+                    <option value="MBA">
+                    <option value="MCA">
+                </datalist>
+            </tr>
+
+            </tr>
+            <tr>
+                <td>Specialisation</td>
+                <td><input list="branch" type="text" placeholder="Enter your Specialisation"></td>
+                <datalist id="branch">
+                    <option value="CS"></option>
+                    <option value="AI"></option>
+                    <option value="DS"></option>
+                </datalist>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="" id="" cols="20" rows="3" placeholder="Enter Address"></textarea></td>
+            </tr>
+            
+            <tr>
+                <td><a href="form.html">back</a></td>
+                <td colspan="2" align="center"><input type="submit" name="submit"></td>
+                
+            </tr>
+
+        </table>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>

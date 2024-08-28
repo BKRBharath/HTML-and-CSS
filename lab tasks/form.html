@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1 {
+            color: red
+        }
+
+        table {
+            background-color: aqua;
+            border-radius: 5px;
+            border: 2vh;
+            border-style: solid;
+            color: rgb(0, 0, 139);
+
+        }
+
+        form {
+            border-style: solid;
+            border-width: inherit;
+        }
+
+        body {
+            background-image: linear-gradient(red,blue,green,yellow,indigo,pink);
+        }
+    </style>
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <table class="tab" align="center" cellpadding="10">
+            <h1 align="center">Registration Form</h1>
+            <tr>
+                <td>Name </td>
+                <td><input type="text" placeholder="Username" required></td>
+            </tr>
+            <tr>
+                <td>Mobile Number</td>
+                <td><input type="number" placeholder="Enter mbl number" pattern="[6789]{1}[0-9]{}" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="Gender"> Male <br>
+                    <input type="radio" name="Gender"> Female <br>
+                    <input type="radio" name="Gender"> Prefer not to say
+                </td>
+
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td><textarea name="" id="" cols="20" rows="3" placeholder="Enter Address"></textarea></td>
+            </tr>
+            <tr>
+                <td>State</td>
+                <td><input type="text" placeholder="Enter ur State"></td>
+            </tr>
+            <tr>
+                <td>pincode</td>
+                <td><input type="number" placeholder="Enter pincode" pincode></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="submit"></td>
+                <td align="left"><a href="education.html">next</a></td>
+            </tr>
+
+        </table>
+    </form>
+
+</body>
+
+</html>
